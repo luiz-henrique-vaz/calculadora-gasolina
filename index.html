@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <title>Calculador de Gasolina</title>
+</head>
+<body>
+    <h1>Calcule a quantidade de gasolina que será gasta no trajeto e o valor que custará!</h1>
+    <div>
+        <label for="distancia">Distância do trajeto (km):</label>
+        <input type="text" id="distancia" name="distancia">
+    </div>
+    <div>
+        <button onclick="calcularGastos()">Calcular</button>
+    </div>
+      
+    <div id="resultado"></div>
+    <img src="/img/carro-spin.webp">
+
+      
+</body>
+    <script src="main.js"></script>
+</html>
