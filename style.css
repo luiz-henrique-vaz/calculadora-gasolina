@@ -8,7 +8,7 @@ body {
     margin:  10vh 10vh 10vh 9vh;
     width: 100%;
     font-family: monospace;
-    background-color: rgb(55, 78, 55);
+    background-color: rgb(42, 43, 42);
     background-position: center center;
     background-size: 50vh;
 }
@@ -55,13 +55,22 @@ img {
     padding: 5px;
 }
 
-#resultado {
+#resultado-litros {
     margin-top: 5vh;
     padding: 5px;
     font-size: 25px;
     font-weight: 400;
-    color: violet;
+    color: rgb(245, 242, 59);
     
+}
+
+#resultado-dinheiro {
+    margin-top: 5vh;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(245, 242, 59);
+    margin-top: 0,1vh;
 }
 
 @media (max-width: 534px ) {
@@ -70,22 +79,29 @@ img {
         width: 65%;
         align-items: center;
         justify-content: center;
+        margin: auto;
+        margin-top: 9vh;
+        
     }
 
      h1 {
         font-size: 15px;
         font-weight: 400;
         color: white;
+        width: 100%;
+        
         
     }
 
     label {
         font-size: 15px;
+        width: 100%;
     }
 
     input {
         font-size: 15px;
         margin-top: 2vh;
+        width: 100%;
         
     }
     
@@ -99,10 +115,22 @@ img {
         margin-top: 5vh;
     }
 
-    #resultado {
+    #resultado-litros {
         margin-top: 5vh;
         padding: 5px;
         font-size: 15px;
         font-weight: 400;
-        color: violet;
+        color: rgb(245, 242, 59);
+        
+    }
+
+    #resultado-dinheiro {
+        margin-top: 5vh;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 400;
+        color: rgb(245, 242, 59);
+        margin-top: 1vh;
+        
+    }
 }
