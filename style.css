@@ -55,7 +55,7 @@ img {
     padding: 5px;
 }
 
-#resultado-litros {
+#resultado {
     margin-top: 5vh;
     padding: 5px;
     font-size: 25px;
@@ -64,14 +64,6 @@ img {
     
 }
 
-#resultado-dinheiro {
-    margin-top: 5vh;
-    padding: 5px;
-    font-size: 25px;
-    font-weight: 400;
-    color: rgb(245, 242, 59);
-    margin-top: 0,1vh;
-}
 
 @media (max-width: 534px ) {
     body {
@@ -114,22 +106,16 @@ img {
         margin-top: 5vh;
     }
 
-    #resultado-litros {
+    #resultado {
+        
         margin-top: 5vh;
         padding: 5px;
         font-size: 15px;
         font-weight: 400;
         color: rgb(245, 242, 59);
+        
         
     }
 
-    #resultado-dinheiro {
-        margin-top: 5vh;
-        padding: 5px;
-        font-size: 15px;
-        font-weight: 400;
-        color: rgb(245, 242, 59);
-        margin-top: 1vh;
-        
-    }
+    
 }

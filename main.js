@@ -12,8 +12,7 @@ function calcularGastos() {
   const valorTotal = litros * precoGasolina;
 
   // Exibe os resultados no elemento HTML
-  const resultadoElementL = document.getElementById("resultado-litros");
-  const resultadoElementD = document.getElementById("resultado-dinheiro");
-  resultadoElementL.innerHTML = "Quantidade de litros necessários: " + litros.toFixed(2) + " litros<br>";
-  resultadoElementD.innerHTML = "Valor total gasto: R$ " + valorTotal.toFixed(2);
+  const resultadoElement = document.getElementById("resultado");
+  resultadoElement.innerHTML = "Quantidade de litros necessários: " + litros.toFixed(2) + " litros<br>";
+  resultadoElement.innerHTML += "Valor total gasto: R$ " + valorTotal.toFixed(2);
 }
