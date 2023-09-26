@@ -5,7 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;    
-    margin: 10vh 10vh;
+    margin:  10vh 10vh 10vh 9vh;
+    width: 100%;
     font-family: monospace;
     background-color: rgb(55, 78, 55);
     background-position: center center;
@@ -61,4 +62,47 @@ img {
     font-weight: 400;
     color: violet;
     
+}
+
+@media (max-width: 600px ) {
+    body {
+        display: flex;
+        width: 65%;
+        align-items: center;
+        justify-content: center;
+    }
+
+     h1 {
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input {
+        font-size: 15px;
+        margin-top: 2vh;
+        
+    }
+    
+    button {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    #resultado {
+        margin-top: 5vh;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 400;
+        color: violet;
 }
