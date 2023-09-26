@@ -13,6 +13,6 @@ function calcularGastos() {
 
   // Exibe os resultados no elemento HTML
   const resultadoElement = document.getElementById("resultado");
-  resultadoElement.innerHTML = "Quantidade de litros necessários: " + litros.toFixed(2) + " litros<br>";
+  resultadoElement.innerHTML = "Quantidade de litros necessários: " + litros.toFixed(2) + " litros<br><br>";
   resultadoElement.innerHTML += "Valor total gasto: R$ " + valorTotal.toFixed(2);
 }
