@@ -2,8 +2,8 @@
 
 function calcularGastos() {
   const distancia = parseFloat(document.getElementById("distancia").value);
-  const consumo = 5; 
-  const precoGasolina = 3.80; 
+  const consumo = 11.3; 
+  const precoGasolina = 3.90; 
 
   // Calcula a quantidade de litros de gasolina necessária
   const litros = distancia / consumo;
